@@ -366,6 +366,10 @@ tmux_conf_update_plugins_on_launch=true
 #   - false
 tmux_conf_update_plugins_on_reload=true
 
+set -g default-terminal "screen-256color"
+set-option -g default-command bash
+
+
 # /!\ do not add set -g @plugin 'tmux-plugins/tpm'
 # /!\ do not add run '~/.tmux/plugins/tpm/tpm'
 
